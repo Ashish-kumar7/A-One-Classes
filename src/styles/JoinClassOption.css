@@ -1,0 +1,126 @@
+.join_Class {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    padding: 0 24px;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #040430;
+    overflow: hidden;
+  }
+  .join_Class_first{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.0625rem solid #e0e0e0;
+    padding: 0.5rem 1rem;
+    width: 98vw;
+  }
+  
+  .join_Class_second{
+    height: 48px;
+    color: #5f6368;
+    fill: #5f6368;
+    display: flex;
+    align-items: center;
+  }
+  .join_Class_header{
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: rgb(255, 251, 251);
+    margin-left: 1rem;
+  }
+  .join_Class_cross {
+    cursor: pointer;
+    /* color: rgb(255, 251, 251); */
+  }
+  .join_class_button {
+    width: 100px !important;
+    height: 40px !important;
+  }
+  .join_Class_Form {
+    margin-top: 1rem;
+    max-width: 35rem;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    width: 100%;
+    background-color: #fff;
+    border: 0.0625rem solid #dadce0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align:center
+  }
+  .join_Class_inside_formText {
+    color: #7f7f7f;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  .join_Class_Login_info {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+  .join_Class_Login_Name {
+    letter-spacing: 0.01785714em;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: #3c4043;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+  }
+  .tooltip  
+  {  
+      display: inline;  
+      position: relative;  
+      text-decoration: none;  
+      top: 0px;  
+      left: 4px;  
+  }  
+  .tooltip:hover:after  
+  {  
+      background: #333;    
+      border-radius: 8px;  
+      top: 45px;  
+      color: #fff;  
+      content: attr(alt);  
+      left: 10px;  
+      padding: 5px 5px;  
+      position: absolute;  
+      z-index: 98;  
+      width: 150px;  
+  }
+  .join_Class_LoggedUser_Email {
+    letter-spacing: 0.025em;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1rem;
+    color: #5f6368;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+  }
+  .join_Class_Login_text {
+    margin-left: 15px;
+    width: 80%;
+  }
+  .join_Class_Class_left {
+    display: flex;
+  }
+  

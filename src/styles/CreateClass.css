@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.CreateClass_title{
+  font-family: "Open Sans", Roboto, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  line-height: 44px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 22px 50px 6px 24px;
+  min-width: 0;
+  color:#070752;
+}
+.CreateClass_content {
+  padding-top: 0;
+  margin-top: 0;
+  font-family: "Roboto";
+  margin-left: 10px;
+}
+
+.CreateClass_text {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.CreateClass_box_inside_text{
+  color:rgb(218, 214, 214);
+}
+.Createclass_checkbox_div{
+  background-color: #070752;
+  display: flex;
+  margin-top: 1.5rem;
+  overflow: hidden;
+  padding: 1.5rem;
+  border-radius: 2px;
+}
+.CreateClass_2_paragraph{
+  color:black;
+}
+
+/* ----------------showCreateClass_Form--------------------- */
+
+.CreateClass_Formtitle{
+  font-family: "Open Sans", Roboto, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  line-height: 44px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 22px 50px 6px 24px;
+  min-width: 0;
+  color:#070752;
+}
+.class__checkboxWrapper > p {
+  font-family: "Roboto";
+  margin-left: 11px;
+}
+.CreateClass_form_input {
+  margin-bottom: 12px !important;
+  width: 40vw;
+}
+.CreateClass_Form_inputs:last-of-type {
+  margin-bottom: 20px;
+}
+.CreateClass_Form_inputs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+.MuiFilledInput-root {
+  background-color: rgba(10, 10, 134, 0.1)!important;
+}
+
+@media only screen and (min-width: 842px) {
+  .form__input {
+    width: 50vw !important;
+  }
+}
